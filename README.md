@@ -32,6 +32,6 @@ Each folder contains a progressively more complex neural network implementation 
 ---
 
 ## References
-- [Neural Networks: Zero to Hero (Karpathy YouTube Series)](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23vL9pzQ9SttW0ecyJdp)
+- [Neural Networks: Zero to Hero (Karpathy YouTube Series)](https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&si=zQext0XwhtQW-XZk)
 - [micrograd GitHub](https://github.com/karpathy/micrograd)
 - [makemore GitHub](https://github.com/karpathy/makemore)
