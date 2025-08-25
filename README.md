@@ -28,7 +28,31 @@ Each folder contains a progressively more complex neural network implementation 
   - We learn that a Neural Network architecture is more scalable.  
   - Finally, when we sample from the mode,l the names obtained are still not usable. We need to continue to improve the neural network - an MLP, in part 2.  
 - **Part 2: MLP**
+  - Replace the single linear layer with a multi-layer perceptron (MLP).
+  - Use embeddings instead of raw one-hot vectors for characters.
+  - Add non-linearity (tanh).
+  - Model now captures more context beyond simple bigram statistics.
+  - Results: Generated names start to look more realistic and diverse, though still imperfect.
+- **Part 3: Activations, BatchNorm, Initialization**
+  - Introduce Batch Normalization to stabilize training
+  - Importance of weight initialization → prevents exploding/vanishing gradients.
+  - Better training dynamics and faster convergence.
+  - Results: Clear improvement in generated samples.
+- **Part 4: Becoming a Backprop Ninja**
+  - Deep dive into backpropagation mechanics:
+    - Manual gradient calculations.
+    - Efficient vectorized implementations.
+    - Understanding the computational graph at a deeper level.
+  - How to debug, verify, and optimize backprop.
+  - Takeaway: Backprop is just careful application of the chain rule.
+  - Builds intuition needed for Transformers.
 
+- **Part 5: Building a WaveNet**
+  - Extend the context window size beyond bigrams (larger n-gram models).
+  - Use architectures inspired by WaveNet: stacked layers with wider receptive fields.
+  - Model begins to capture long-range dependencies in character sequences.
+  - Result: Generated names are much more coherent, with structure closer to real data.
+  - Takeaway: Scaling depth + context naturally leads into sequence models like RNNs, CNNs, and ultimately Transformers.
 ---
 
 ## References
